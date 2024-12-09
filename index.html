@@ -35,14 +35,14 @@
         </p>
       </div>
       <div class="score-container">
-        <div>Player Score: <span id="player-score">0</span></div>
-        <div>Computer Score: <span id="computer-score">0</span></div>
+        <div>Player Score: <span id="player-score"></span></div>
+        <div>Computer Score: <span id="computer-score"></span></div>
       </div>
       <div class="game-play">
         <p>Choose an option:</p>
-        <button onclick="playRock()">Rock</button>
-        <button onclick="playPaper()">Paper</button>
-        <button onclick="playScissors()">Scissors</button>
+        <button onclick="playRock()" id="rock-button">Rock</button>
+        <button onclick="playPaper()" id="paper-button">Paper</button>
+        <button onclick="playScissors()" id="scissors-button">Scissors</button>
       </div>
       <div class="results" id="gameplay-text"></div>
       <p class="results" id="results"></p>

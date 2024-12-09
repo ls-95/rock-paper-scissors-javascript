@@ -38,6 +38,8 @@
   color: black;
   padding: 5px;
   cursor: pointer;
+  width: 18px;
+  height: 18px;
 }
 
 .game-container .score-container {

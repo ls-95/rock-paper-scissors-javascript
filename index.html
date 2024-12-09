@@ -18,20 +18,23 @@
   </head>
   <body>
     <div class="game-container">
-      <h1>Rock - Paper - Scissors</h1>
+      <h1>Let's play Rock, Paper, Scissors!</h1>
       <div id="rules" class="rules">
         <span id="icon"><i class="fa-solid fa-arrow-right"></i> </span>Rules of
         the game
       </div>
       <div class="score-container">
-        <div>Player Score: <span id="playerScore"></span></div>
-        <div>Computer Score: <span id="computerScore"></span></div>
+        <div>Player Score: <span id="playerScore">0</span></div>
+        <div>Computer Score: <span id="computerScore">0</span></div>
       </div>
-      <div>
+      <div class="game-play">
         <p>Choose an option:</p>
         <button>Rock</button>
         <button>Paper</button>
         <button>Scissors</button>
+      </div>
+      <div class="results" id="results">
+        <p></p>
       </div>
     </div>
     <script src="script.js"></script>

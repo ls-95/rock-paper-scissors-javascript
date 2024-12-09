@@ -20,22 +20,31 @@
     <div class="game-container">
       <h1>Let's play Rock, Paper, Scissors!</h1>
       <div id="rules" class="rules">
-        <span id="icon"><i class="fa-solid fa-arrow-right"></i> </span>Rules of
+        <span id="icon"><i class="fa-solid fa-arrow-right"></i></span> Rules of
         the game
+        <p id="rules-text">
+          You will be playing against the computer.<br />
+          You can choose between Rock, Paper, and Scissors.<br />
+          The first one to three points wins.<br /><br />
+          Here are the rules to getting a point in the game:<br />
+          Rock beats Scissors<br />
+          Scissors beats Paper<br />
+          Paper beats Rock<br /><br />
+          If the player and computer choose the same option (Ex. Paper and
+          Paper), then no one gets the point.
+        </p>
       </div>
       <div class="score-container">
-        <div>Player Score: <span id="playerScore">0</span></div>
-        <div>Computer Score: <span id="computerScore">0</span></div>
+        <div>Player Score: <span id="player-score">0</span></div>
+        <div>Computer Score: <span id="computer-score">0</span></div>
       </div>
       <div class="game-play">
         <p>Choose an option:</p>
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <button onclick="playRock()">Rock</button>
+        <button onclick="playPaper()">Paper</button>
+        <button onclick="playScissors()">Scissors</button>
       </div>
-      <div class="results" id="results">
-        <p></p>
-      </div>
+      <div class="results" id="results"></div>
     </div>
     <script src="script.js"></script>
   </body>

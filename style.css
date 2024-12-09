@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: darkblue;
+  color: white;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.game-container h1 {
+  font-size: 36px;
+}

@@ -66,6 +66,11 @@
   cursor: pointer;
 }
 
-.game-container .results {
+.game-container .gameplay-results,
+.game-container .replay-message {
   font-size: 18px;
+}
+
+.game-container .results {
+  font-size: 28px;
 }

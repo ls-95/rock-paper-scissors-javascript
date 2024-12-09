@@ -7,6 +7,7 @@ const computerScore = document.querySelector("#computer-score");
 
 const gameplayText = document.querySelector("#gameplay-text");
 const resultsText = document.querySelector("#results");
+const replayMessage = document.querySelector("#replay-message");
 
 playerScore.innerText = 0;
 computerScore.innerText = 0;
@@ -86,13 +87,15 @@ function gameScore(result) {
   }
 
   if (player >= 3) {
-    resultsText.innerText =
-      "You won!! The page will reload in 10 seconds if you wish to play again 🙂";
+    resultsText.innerText = "You won😁";
+    replayMessage.innerText =
+      "The page will reload in 10 seconds if you wish to play again!";
     endGame();
   }
   if (computer >= 3) {
-    resultsText.innerText =
-      "Computer won!! The page will reload in 10 seconds if you wish to play again 🙂";
+    resultsText.innerText = "You lose 😭";
+    replayMessage.innerText =
+      "The page will reload in 10 seconds if you wish to play again!";
     endGame();
   }
 }
